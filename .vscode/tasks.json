@@ -11,21 +11,6 @@
         },
         {
             "type": "shell",
-            "label": "Run Local Server and Open Browser",
-            "command": "emrun",
-            "args": [
-                "--port",
-                "8080",
-                "--serve_after_close",
-                "build/index.html"
-            ],
-            "group": "none",
-            "dependsOn": [
-                "Build"
-            ]
-        },
-        {
-            "type": "shell",
             "label": "Run Local Server",
             "command": "emrun",
             "args": [

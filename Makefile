@@ -4,7 +4,8 @@ SRCDIR=./src
 
 SUBDIRS=\
 		.\
-		utils
+		utils\
+		dataHandler
 
 LINK_FLAGS=\
 			-LOpenSiv3D/lib\
